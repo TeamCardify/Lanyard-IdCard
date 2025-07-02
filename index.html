@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="shortcut icon" href="assets/img/batik2.png" type="image/x-icon">
+
+   <link rel="stylesheet" href="assets/css/remixicon.css">
+
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+   <link rel="stylesheet" href="assets/css/style.css">
+
+   <title>Batik Cirebon website - FathanAprian</title>
+</head>
+
+<body>
+   <!--header-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="" class="nav__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+               height="30" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+               xml:space="preserve" class="">
+               <g>
+                  <path
+                     d="m511.999 268.421.001-24.75c-.023-42.54-35.841-86.913-73.08-108.243 39.282-22.611 76.504-70.534 72.549-114.476v-.001A22.786 22.786 0 0 0 490.806.29c-43.877-3.949-91.79 33.193-114.429 72.455C354.973 35.625 310.781.086 268.417.009l-24.75-.001c-42.349.023-86.599 35.548-108.044 72.737C112.988 33.491 65.071-3.662 21.195.289A22.788 22.788 0 0 0 .531 20.952c-3.962 44.019 33.346 91.911 72.548 114.476C35.928 156.708.078 201.015.001 243.587L0 268.337c.023 42.42 35.706 86.835 73.078 108.242C33.887 399.14-3.43 447.046.531 491.057v.001a22.786 22.786 0 0 0 20.663 20.661 70.53 70.53 0 0 0 6.334.281c42.323 0 86.611-35.477 108.095-72.736 21.406 37.122 65.597 72.659 107.96 72.736l24.75.001c42.349-.023 86.599-35.548 108.044-72.737C397.841 476.487 442.122 512 484.471 512c2.134 0 4.25-.093 6.334-.28a22.787 22.787 0 0 0 20.664-20.663c3.96-43.993-33.324-91.899-72.547-114.477 37.23-21.326 73-65.655 73.077-108.159zm-30.073-27.494c-38.965-2.247-87.977-51.281-90.221-90.221 38.964 2.247 87.976 51.281 90.221 90.221zm-346.357 73.161c-12.957-22.62-34.194-44.393-57.938-58.084 22.629-13.048 44.343-34.349 57.938-58.083 13.122 22.797 34.536 44.535 58.231 58.084-22.728 12.996-44.553 34.319-58.231 58.083zm105.354-42.756c-2.246 38.965-51.283 87.976-90.222 90.22 2.246-38.967 51.284-87.973 90.222-90.22zm-90.222-120.876c38.967 2.251 87.979 51.281 90.222 90.221-38.966-2.251-87.977-51.277-90.222-90.221zm167.498 105.548c22.726-12.994 44.553-34.319 58.232-58.084 12.957 22.619 34.193 44.392 57.938 58.084-22.63 13.048-44.343 34.349-57.938 58.083-13.089-22.74-34.476-44.5-58.232-58.083zM361.3 361.553c-38.967-2.251-87.979-51.281-90.222-90.221 38.965 2.25 87.977 51.277 90.222 90.221zm-90.222-120.876c2.246-38.965 51.283-87.976 90.222-90.22-2.247 38.967-51.285 87.973-90.222 90.22zM481.677 30.081c-2.247 38.965-51.282 87.975-90.222 90.22 2.246-38.964 51.281-87.974 90.222-90.22zM361.3 120.302c-38.966-2.25-87.979-51.279-90.222-90.22 38.968 2.25 87.977 51.279 90.222 90.22zM256 77.638c13.291 23.049 34.66 44.429 57.749 57.741-23.046 13.287-44.435 34.651-57.749 57.741-13.289-23.047-34.659-44.429-57.75-57.742 23.05-13.288 44.436-34.65 57.75-57.74zm-15.077-47.557c-2.247 38.965-51.281 87.975-90.222 90.22 2.246-38.963 51.281-87.974 90.222-90.22zm-210.6 0c38.957 2.25 87.976 51.268 90.222 90.22-38.967-2.25-87.979-51.281-90.222-90.22zm89.972 120.625c-2.251 38.965-51.279 87.978-90.222 90.221 2.251-38.968 51.281-87.976 90.222-90.221zM30.074 271.081c38.965 2.247 87.977 51.281 90.221 90.221-38.964-2.247-87.976-51.281-90.221-90.221zm.249 210.846c2.247-38.965 51.282-87.975 90.222-90.22-2.246 38.964-51.281 87.975-90.222 90.22zm120.377-90.22c38.966 2.25 87.979 51.279 90.222 90.22-38.968-2.251-87.977-51.279-90.222-90.22zM256 434.371c-13.29-23.049-34.659-44.429-57.749-57.741 23.049-13.29 44.435-34.651 57.749-57.741 13.29 23.049 34.659 44.429 57.749 57.741-23.049 13.289-44.435 34.651-57.749 57.741zm15.077 47.556c2.247-38.965 51.281-87.975 90.222-90.22-2.246 38.964-51.281 87.974-90.222 90.22zm210.6 0c-38.957-2.25-87.976-51.268-90.222-90.22 38.968 2.251 87.979 51.281 90.222 90.22zm-89.972-120.625c2.251-38.965 51.279-87.978 90.222-90.221-2.251 38.968-51.281 87.976-90.222 90.221z"
+                     fill="currentColor" opacity="1" data-original="#000000"></path>
+               </g>
+            </svg>
+            <span>Bcirebon</span>
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#info" class="nav__link ">Info</a>
+               </li>
+
+               <li>
+                  <a href="#more" class="nav__link">More</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="nav__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#join" class="nav__link">Contact</a>
+               </li>
+
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__buttons">
+            <i class="ri-moon-fill nav__theme" id="theme-button"></i>
+
+            <div class="nav__toogle" id="nav-toggle">
+               <i class="ri-apps-2-fill"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+
+   <main class="main">
+      <!--home-->
+      <section class="home section" id="home">
+         <img src="assets/img/images.jpeg" alt="image" class="home__bg">
+         <div class="home__blur"></div>
+
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">Batik <br> Art Is <br> Very Nice</h1>
+
+               <p class="home__description">
+                  Batik merupakan teknik, simbol, dan kebudayaan
+                  terkait cara mewarnai kain dengan menggunakan
+                  malam (lilin) untuk mencegah pewarna menempel
+                  pada bagian kain yang tidak diinginkan.
+               </p>
+
+               <a href="#info" class="button button__opa-30">
+                  Jelajahi Batik cirebon
+                  <i class="ri-arrow-right-long-line"></i>
+               </a>
+            </div>
+            <div class="home__swiper swiper">
+               <div class="swiper-wrapper">
+                  <article class="home__article swiper-slide">
+                     <img src="assets/img/batik1.webp" alt="image" class="home__img">
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <img src="assets/img/batik2.jpg" alt="image" class="home__img">
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <img src="assets/img/batik3.jpg" alt="image" class="home__img">
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <img src="assets/img/batik4.jpg" alt="image" class="home__img">
+                  </article>
+               </div>
+
+
+               <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-long-line"></i>
+               </div>
+
+               <div class="swiper-button-next">
+                  <i class="ri-arrow-right-long-line"></i>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <!-- info -->
+      <section class="info section" id="info">
+         <h2 class="section__title">Batik Beragam <br> Di Cirebon</h2>
+
+
+         <div class="info__swiper swiper">
+            <div class="swiper-wrapper">
+               <article class="info__article swiper-slide">
+                  <img src="assets/img/bajubatik1.png" alt="image" class="infoimg">
+
+                  <h2 class="info__desc">Batik Cirebon</h2>
+               </article>
+
+               <article class="info__article swiper-slide">
+                  <img src="assets/img/bajubatik2.png" alt="image" class="infoimg">
+
+                  <h2 class="info__desc">Batik Cirebon</h2>
+               </article>
+
+               <article class="info__article swiper-slide">
+                  <img src="assets/img/bajubatik3.png" alt="image" class="infoimg">
+
+                  <h2 class="info__desc">Batik Cirebon</h2>
+               </article>
+
+               <article class="info__article swiper-slide">
+                  <img src="assets/img/bajubatik4.png" alt="image" class="infoimg">
+
+                  <h2 class="info__desc">Batik Cirebon</h2>
+               </article>
+
+               <article class="info__article swiper-slide">
+                  <img src="assets/img/bajubatik5.png" alt="image" class="infoimg">
+
+                  <h2 class="info__desc">Batik Cirebon</h2>
+               </article>
+            </div>
+            <div class="swiper-button-prev">
+               <i class="ri-arrow-left-long-line"></i>
+            </div>
+
+            <div class="swiper-button-next">
+               <i class="ri-arrow-right-long-line"></i>
+            </div>
+         </div>
+         <br><br><br><br>
+
+         <div class="info__container container grid">
+            <article class="info__card">
+               <img src="assets/img/batikmega.jpg" alt="image" class="info__img">
+
+               <div class="info__data">
+                  <h3 class="info__subtitle">Mega Mendung</h3>
+                  <h class="info__title">Cirebon</h2>
+                     <p class="info__country">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Indonesia</span>
+                     </p>
+               </div>
+            </article>
+
+            <article class="info__card">
+               <img src="assets/img/batiksingapayung.jpg" alt="image" class="info__img">
+
+               <div class="info__data">
+                  <h3 class="info__subtitle">Singa Payung</h3>
+                  <h class="info__title">Cirebon</h2>
+                     <p class="info__country">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Indonesia</span>
+                     </p>
+               </div>
+            </article>
+
+            <article class="info__card">
+               <img src="assets/img/batikbangau.jpeg" alt="image" class="info__img">
+
+               <div class="info__data">
+                  <h3 class="info__subtitle">Ciwaringin Bangau</h3>
+                  <h class="info__title">Cirebon</h2>
+                     <p class="info__country">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Grecia</span>
+                     </p>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--more-->
+      <section class="more section" id="more">
+         <h2 class="section__title">Penjelasan<br> Batik di cirebon</h2>
+
+         <div class="more__container container grid">
+            <img src="assets/img/batiktrusmi2.png" alt="image" class="more__img">
+
+            <div class="more__swiper swiper">
+               <div class="swiper-wrapper">
+                  <div class="more__card swiper-slide">
+                     <h2 class="more__title">Batik <br> Mega Mendung</h2>
+                     <p class="more__description">
+                        Motif batik Cirebon yang paling terkenal adalah mega mendung. Batik ini memiliki ciri khas yang
+                        sangat berbeda bila kamu bandingkan dengan batik dari daerah lain.
+                     </p>
+
+                     <div class="more__profile">
+                        <i class="ri-map-pin-line" style="font-size: 24px;"></i>
+
+                        <div class="more__info">
+                           <h3>Plered</h3>
+                           <p>Cirebon</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="more__card swiper-slide">
+                     <h2 class="more__title">Batik <br>Singa Payung</h2>
+                     <p class="more__description">
+                        Motif batik yang satu ini tak terlepas dari pengaruh gaya keraton Cirebon. Pasalnya motif ini
+                        merupakan satu jenis batik yang pembuatannya terinspirasi dari lingkungan Keraton Kanoman.
+                     </p>
+
+                     <div class="more__profile">
+                        <i class="ri-map-pin-line" style="font-size: 24px;"></i>
+
+                        <div class="more__info">
+                           <h3>Keraton Kanoman</h3>
+                           <p>Cirebon</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="more__card swiper-slide">
+                     <h2 class="more__title">Batik <br>Ciwaringin Bangau</h2>
+                     <p class="more__description">
+                        Batik dengan motif ini tergagas dari cerita rakyat Ciwaringin yang pernah dijajah.
+                        Pada motif tersebut Anda bisa melihat gambar burung bangau. Burung bangau ini merupakan lambang
+                        yang bermakna kesetiaan rakyat.
+                     </p>
+
+                     <div class="more__profile">
+                        <i class="ri-map-pin-line" style="font-size: 24px;"></i>
+
+                        <div class="more__info">
+                           <h3>Ciwaringin</h3>
+                           <p>Cirebon</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-long-line"></i>
+               </div>
+
+               <div class="swiper-button-next">
+                  <i class="ri-arrow-right-long-line"></i>
+               </div>
+
+            </div>
+         </div>
+      </section>
+      <!--tentang kami-->
+      <section class="warna2 py-5" id="about">
+         <div class="hiasan kiri-atas">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+               height="30" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+               xml:space="preserve" class="">
+               <g>
+                  <path
+                     d="m511.999 268.421.001-24.75c-.023-42.54-35.841-86.913-73.08-108.243 39.282-22.611 76.504-70.534 72.549-114.476v-.001A22.786 22.786 0 0 0 490.806.29c-43.877-3.949-91.79 33.193-114.429 72.455C354.973 35.625 310.781.086 268.417.009l-24.75-.001c-42.349.023-86.599 35.548-108.044 72.737C112.988 33.491 65.071-3.662 21.195.289A22.788 22.788 0 0 0 .531 20.952c-3.962 44.019 33.346 91.911 72.548 114.476C35.928 156.708.078 201.015.001 243.587L0 268.337c.023 42.42 35.706 86.835 73.078 108.242C33.887 399.14-3.43 447.046.531 491.057v.001a22.786 22.786 0 0 0 20.663 20.661 70.53 70.53 0 0 0 6.334.281c42.323 0 86.611-35.477 108.095-72.736 21.406 37.122 65.597 72.659 107.96 72.736l24.75.001c42.349-.023 86.599-35.548 108.044-72.737C397.841 476.487 442.122 512 484.471 512c2.134 0 4.25-.093 6.334-.28a22.787 22.787 0 0 0 20.664-20.663c3.96-43.993-33.324-91.899-72.547-114.477 37.23-21.326 73-65.655 73.077-108.159zm-30.073-27.494c-38.965-2.247-87.977-51.281-90.221-90.221 38.964 2.247 87.976 51.281 90.221 90.221zm-346.357 73.161c-12.957-22.62-34.194-44.393-57.938-58.084 22.629-13.048 44.343-34.349 57.938-58.083 13.122 22.797 34.536 44.535 58.231 58.084-22.728 12.996-44.553 34.319-58.231 58.083zm105.354-42.756c-2.246 38.965-51.283 87.976-90.222 90.22 2.246-38.967 51.284-87.973 90.222-90.22zm-90.222-120.876c38.967 2.251 87.979 51.281 90.222 90.221-38.966-2.251-87.977-51.277-90.222-90.221zm167.498 105.548c22.726-12.994 44.553-34.319 58.232-58.084 12.957 22.619 34.193 44.392 57.938 58.084-22.63 13.048-44.343 34.349-57.938 58.083-13.089-22.74-34.476-44.5-58.232-58.083zM361.3 361.553c-38.967-2.251-87.979-51.281-90.222-90.221 38.965 2.25 87.977 51.277 90.222 90.221zm-90.222-120.876c2.246-38.965 51.283-87.976 90.222-90.22-2.247 38.967-51.285 87.973-90.222 90.22zM481.677 30.081c-2.247 38.965-51.282 87.975-90.222 90.22 2.246-38.964 51.281-87.974 90.222-90.22zM361.3 120.302c-38.966-2.25-87.979-51.279-90.222-90.22 38.968 2.25 87.977 51.279 90.222 90.22zM256 77.638c13.291 23.049 34.66 44.429 57.749 57.741-23.046 13.287-44.435 34.651-57.749 57.741-13.289-23.047-34.659-44.429-57.75-57.742 23.05-13.288 44.436-34.65 57.75-57.74zm-15.077-47.557c-2.247 38.965-51.281 87.975-90.222 90.22 2.246-38.963 51.281-87.974 90.222-90.22zm-210.6 0c38.957 2.25 87.976 51.268 90.222 90.22-38.967-2.25-87.979-51.281-90.222-90.22zm89.972 120.625c-2.251 38.965-51.279 87.978-90.222 90.221 2.251-38.968 51.281-87.976 90.222-90.221zM30.074 271.081c38.965 2.247 87.977 51.281 90.221 90.221-38.964-2.247-87.976-51.281-90.221-90.221zm.249 210.846c2.247-38.965 51.282-87.975 90.222-90.22-2.246 38.964-51.281 87.975-90.222 90.22zm120.377-90.22c38.966 2.25 87.979 51.279 90.222 90.22-38.968-2.251-87.977-51.279-90.222-90.22zM256 434.371c-13.29-23.049-34.659-44.429-57.749-57.741 23.049-13.29 44.435-34.651 57.749-57.741 13.29 23.049 34.659 44.429 57.749 57.741-23.049 13.289-44.435 34.651-57.749 57.741zm15.077 47.556c2.247-38.965 51.281-87.975 90.222-90.22-2.246 38.964-51.281 87.974-90.222 90.22zm210.6 0c-38.957-2.25-87.976-51.268-90.222-90.22 38.968 2.251 87.979 51.281 90.222 90.22zm-89.972-120.625c2.251-38.965 51.279-87.978 90.222-90.221-2.251 38.968-51.281 87.976-90.222 90.221z"
+                     fill="currentColor" opacity="1" data-original="#000000"></path>
+               </g>
+            </svg>
+         </div>
+         <div class="text">
+            <h3>Tentang Kami</h3>
+            <p>
+               Bcirebon adalah platform digital yang hadir untuk melestarikan dan memperkenalkan kekayaan budaya Batik
+               Cirebon ke dunia melalui teknologi modern. Kami memadukan keindahan seni tradisional dengan kemudahan
+               akses digital, sehingga siapa pun dapat mengenal, mempelajari, dan mengapresiasi batik khas Cirebon
+               secara lebih luas dan mendalam.
+            </p>
+            <p>
+               Dalam semangat menjaga warisan budaya, Bcirebon menyediakan galeri digital batik, informasi sejarah dan
+               filosofi motif, serta katalog produk yang terinspirasi dari motif klasik hingga kontemporer. Dengan
+               tampilan yang interaktif dan edukatif, kami ingin membawa pengalaman berbudaya ke dalam genggaman tangan.
+            </p>
+            <p><strong>Visi</strong></p>
+            <p>
+               Menjadi platform digital unggulan dalam pelestarian, edukasi, dan promosi Batik Cirebon di era modern.
+            </p>
+            <p><strong>Misi</strong></p>
+            <ul style="text-align: left; max-width: 800px; margin: 0 auto; padding-left: 1.2rem;">
+               <li>Melestarikan nilai-nilai budaya Batik Cirebon melalui media digital yang mudah diakses.</li>
+               <li>Mengedukasi generasi muda tentang filosofi, motif, dan sejarah batik daerah.</li>
+               <li>Memperluas jangkauan promosi UMKM dan pengrajin batik lokal secara online.</li>
+               <li>Menghadirkan pengalaman pengguna yang menarik melalui tampilan visual dan teknologi interaktif.</li>
+            </ul>
+            <p>
+               Bcirebon percaya bahwa batik bukan sekadar kain, tetapi identitas, cerita, dan warisan yang patut dijaga.
+               Dengan semangat inovasi dan kecintaan terhadap budaya, kami berkomitmen menjadi jembatan antara warisan
+               leluhur dan generasi masa kini melalui platform digital yang inspiratif.
+            </p>
+         </div>
+         <div class="hiasan kanan-bawah">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+               height="40" x="0" y="0" viewBox="0 0 48 48" style="enable-background:new 0 0 512 512"
+               xml:space="preserve" class="">
+               <g>
+                  <path fill-rule="evenodd"
+                     d="M44 5c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1v38c0 .55.45 1 1 1h38c.55 0 1-.45 1-1zm-4 2H8c-.55 0-1 .45-1 1v32c0 .55.45 1 1 1h32c.55 0 1-.45 1-1V8c0-.55-.45-1-1-1zM16 36.22c-.49 1.1-1.13 1.97-1.88 2.66-.04.04-.09.08-.13.12h4.04s-.09-.08-.13-.12c-.76-.69-1.4-1.57-1.88-2.66zm16 0c-.49 1.1-1.13 1.97-1.88 2.66-.04.04-.09.08-.13.12h4.04s-.09-.08-.13-.12c-.76-.69-1.4-1.57-1.88-2.66zm1.14-3.19c1.15.1 2.11.45 2.9 1.03 1.37 1.01 2.22 2.69 2.73 4.85-1.39-.18-2.59-.65-3.54-1.5-1.05-.96-1.76-2.39-2.09-4.38zm-16 0c1.15.1 2.11.45 2.9 1.03 1.37 1.01 2.22 2.69 2.73 4.85-1.39-.18-2.59-.65-3.54-1.5-1.05-.96-1.76-2.39-2.09-4.38zm13.72 0c-.33 1.99-1.04 3.42-2.09 4.38-.94.86-2.15 1.32-3.54 1.5.51-2.16 1.36-3.84 2.73-4.85.79-.59 1.75-.93 2.9-1.03zm-16 0c-.33 1.99-1.04 3.42-2.09 4.38-.94.86-2.15 1.32-3.54 1.5.51-2.16 1.36-3.84 2.73-4.85.79-.59 1.75-.93 2.9-1.03zM24 27.79c-.66 1.61-1.58 2.88-2.77 3.76-.22.16-.45.31-.69.45.24.14.47.29.69.45 1.19.88 2.11 2.15 2.77 3.76.66-1.61 1.58-2.88 2.77-3.76.22-.16.45-.31.69-.45-.24-.14-.47-.29-.69-.45-1.19-.88-2.11-2.15-2.77-3.76zm15 1.88c-.5.74-1.09 1.37-1.77 1.87-.22.16-.45.31-.69.45.24.14.47.29.69.45.68.5 1.27 1.13 1.77 1.87v-4.65zm-30 0v4.65c.5-.74 1.09-1.37 1.77-1.87.22-.16.45-.31.69-.45-.24-.14-.47-.29-.69-.45-.68-.5-1.27-1.13-1.77-1.87zm14 1.83v1c0 .55.45 1 1 1s1-.45 1-1v-1c0-.55-.45-1-1-1s-1 .45-1 1zm10.14-.53c.33-1.99 1.04-3.42 2.09-4.38.94-.86 2.15-1.32 3.54-1.5-.51 2.16-1.36 3.84-2.73 4.85-.79.59-1.75.93-2.9 1.03zm-16 0c.33-1.99 1.04-3.42 2.09-4.38.94-.86 2.15-1.32 3.54-1.5-.51 2.16-1.36 3.84-2.73 4.85-.79.59-1.75.93-2.9 1.03zm13.72 0c-1.15-.1-2.11-.45-2.9-1.03-1.37-1.01-2.22-2.69-2.73-4.85 1.39.18 2.59.65 3.54 1.5 1.05.96 1.76 2.39 2.09 4.38zm-16 0c-1.15-.1-2.11-.45-2.9-1.03-1.37-1.01-2.22-2.69-2.73-4.85 1.39.18 2.59.65 3.54 1.5 1.05.96 1.76 2.39 2.09 4.38zM32 20.22c-.49 1.1-1.13 1.97-1.88 2.66-.49.45-1.04.82-1.63 1.12.59.3 1.14.67 1.63 1.12.76.69 1.4 1.57 1.88 2.66.49-1.1 1.13-1.97 1.88-2.66.49-.45 1.04-.82 1.63-1.12-.59-.3-1.14-.67-1.63-1.12-.76-.69-1.4-1.57-1.88-2.66zm-16 0c-.49 1.1-1.13 1.97-1.88 2.66-.49.45-1.04.82-1.63 1.12.59.3 1.14.67 1.63 1.12.76.69 1.4 1.57 1.88 2.66.49-1.1 1.13-1.97 1.88-2.66.49-.45 1.04-.82 1.63-1.12-.59-.3-1.14-.67-1.63-1.12-.76-.69-1.4-1.57-1.88-2.66zm1 4.28v-1c0-.55-.45-1-1-1s-1 .45-1 1v1c0 .55.45 1 1 1s1-.45 1-1zm14-1v1c0 .55.45 1 1 1s1-.45 1-1v-1c0-.55-.45-1-1-1s-1 .45-1 1zm2.14-6.47c1.15.1 2.11.45 2.9 1.03 1.37 1.01 2.22 2.69 2.73 4.85-1.39-.18-2.59-.65-3.54-1.5-1.05-.96-1.76-2.39-2.09-4.38zm-16 0c1.15.1 2.11.45 2.9 1.03 1.37 1.01 2.22 2.69 2.73 4.85-1.39-.18-2.59-.65-3.54-1.5-1.05-.96-1.76-2.39-2.09-4.38zm-2.28 0c-.33 1.99-1.04 3.42-2.09 4.38-.94.86-2.15 1.32-3.54 1.5.51-2.16 1.36-3.84 2.73-4.85.79-.59 1.75-.93 2.9-1.03zm16 0c-.33 1.99-1.04 3.42-2.09 4.38-.94.86-2.15 1.32-3.54 1.5.51-2.16 1.36-3.84 2.73-4.85.79-.59 1.75-.93 2.9-1.03zM24 11.79c-.66 1.61-1.58 2.88-2.77 3.76-.22.16-.45.31-.69.45.24.14.47.29.69.45 1.19.88 2.11 2.15 2.77 3.76.66-1.61 1.58-2.88 2.77-3.76.22-.16.45-.31.69-.45-.24-.14-.47-.29-.69-.45-1.19-.88-2.11-2.15-2.77-3.76zm15 1.88c-.5.74-1.09 1.37-1.77 1.87-.22.16-.45.31-.69.45.24.14.47.29.69.45.68.5 1.27 1.13 1.77 1.87v-4.65zm-30 0v4.65c.5-.74 1.09-1.37 1.77-1.87.22-.16.45-.31.69-.45-.24-.14-.47-.29-.69-.45-.68-.5-1.27-1.13-1.77-1.87zm16 2.83v-1c0-.55-.45-1-1-1s-1 .45-1 1v1c0 .55.45 1 1 1s1-.45 1-1zm-7.86-1.53c.33-1.99 1.04-3.42 2.09-4.38.94-.86 2.15-1.32 3.54-1.5-.51 2.16-1.36 3.84-2.73 4.85-.79.59-1.75.93-2.9 1.03zm16 0c.33-1.99 1.04-3.42 2.09-4.38.94-.86 2.15-1.32 3.54-1.5-.51 2.16-1.36 3.84-2.73 4.85-.79.59-1.75.93-2.9 1.03zm-18.28 0c-1.15-.1-2.11-.45-2.9-1.03-1.37-1.01-2.22-2.69-2.73-4.85 1.39.18 2.59.65 3.54 1.5 1.05.96 1.76 2.39 2.09 4.38zm16 0c-1.15-.1-2.11-.45-2.9-1.03-1.37-1.01-2.22-2.69-2.73-4.85 1.39.18 2.59.65 3.54 1.5 1.05.96 1.76 2.39 2.09 4.38zM34.02 9h-4.04s.09.08.13.12c.76.69 1.4 1.57 1.88 2.66.49-1.1 1.13-1.97 1.88-2.66.04-.04.09-.08.13-.12zm-16 0h-4.04s.09.08.13.12c.76.69 1.4 1.57 1.88 2.66.49-1.1 1.13-1.97 1.88-2.66.04-.04.09-.08.13-.12z"
+                     fill="currentColor" opacity="1" data-original="#000000" class=""></path>
+               </g>
+            </svg>
+         </div>
+
+      </section>
+
+
+
+    <section class="join section" id="join">
+    <h2 class="section__title">Contact Us</h2>
+    <div class="join__container container grid">
+      <div class="info-wrap">
+        <div class="info-item">
+          <i class="bi bi-geo-alt"></i>
+          <div>
+            <h3>Alamat</h3>
+            <p>Perumahan Griya Setu Kemuning, Desa Setukulon, Kec.Weru, Kab.Cirebon</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="bi bi-telephone"></i>
+          <div>
+            <h3>Telepon</h3>
+            <p>+1 5589 55488 55</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="bi bi-envelope"></i>
+          <div>
+            <h3>Email gua</h3>
+            <p>Rianinaja@gmail.com</p>
+          </div>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+          allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="col join__wrap col-lg-7">
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row">
+            <div class="col">
+              <label for="name-field">Nama</label>
+              <input type="text" name="name" id="name-field" required>
+            </div>
+
+            <div class="col">
+              <label for="email-field">Email</label>
+              <input type="email" name="email" id="email-field" required>
+            </div>
+          </div>
+
+          <label for="subject-field">Subject</label>
+          <input type="text" name="subject" id="subject-field" required>
+
+          <label for="message-field">Pesan</label>
+          <textarea name="message" id="message-field" rows="8" required></textarea>
+
+          <div class="text-center">
+            <button type="submit">Kirim Pesan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+   </main>
+
+
+   <!--footer-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <a href="#" class="footer__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+               height="30" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+               xml:space="preserve" class="">
+               <g>
+                  <path
+                     d="m511.999 268.421.001-24.75c-.023-42.54-35.841-86.913-73.08-108.243 39.282-22.611 76.504-70.534 72.549-114.476v-.001A22.786 22.786 0 0 0 490.806.29c-43.877-3.949-91.79 33.193-114.429 72.455C354.973 35.625 310.781.086 268.417.009l-24.75-.001c-42.349.023-86.599 35.548-108.044 72.737C112.988 33.491 65.071-3.662 21.195.289A22.788 22.788 0 0 0 .531 20.952c-3.962 44.019 33.346 91.911 72.548 114.476C35.928 156.708.078 201.015.001 243.587L0 268.337c.023 42.42 35.706 86.835 73.078 108.242C33.887 399.14-3.43 447.046.531 491.057v.001a22.786 22.786 0 0 0 20.663 20.661 70.53 70.53 0 0 0 6.334.281c42.323 0 86.611-35.477 108.095-72.736 21.406 37.122 65.597 72.659 107.96 72.736l24.75.001c42.349-.023 86.599-35.548 108.044-72.737C397.841 476.487 442.122 512 484.471 512c2.134 0 4.25-.093 6.334-.28a22.787 22.787 0 0 0 20.664-20.663c3.96-43.993-33.324-91.899-72.547-114.477 37.23-21.326 73-65.655 73.077-108.159zm-30.073-27.494c-38.965-2.247-87.977-51.281-90.221-90.221 38.964 2.247 87.976 51.281 90.221 90.221zm-346.357 73.161c-12.957-22.62-34.194-44.393-57.938-58.084 22.629-13.048 44.343-34.349 57.938-58.083 13.122 22.797 34.536 44.535 58.231 58.084-22.728 12.996-44.553 34.319-58.231 58.083zm105.354-42.756c-2.246 38.965-51.283 87.976-90.222 90.22 2.246-38.967 51.284-87.973 90.222-90.22zm-90.222-120.876c38.967 2.251 87.979 51.281 90.222 90.221-38.966-2.251-87.977-51.277-90.222-90.221zm167.498 105.548c22.726-12.994 44.553-34.319 58.232-58.084 12.957 22.619 34.193 44.392 57.938 58.084-22.63 13.048-44.343 34.349-57.938 58.083-13.089-22.74-34.476-44.5-58.232-58.083zM361.3 361.553c-38.967-2.251-87.979-51.281-90.222-90.221 38.965 2.25 87.977 51.277 90.222 90.221zm-90.222-120.876c2.246-38.965 51.283-87.976 90.222-90.22-2.247 38.967-51.285 87.973-90.222 90.22zM481.677 30.081c-2.247 38.965-51.282 87.975-90.222 90.22 2.246-38.964 51.281-87.974 90.222-90.22zM361.3 120.302c-38.966-2.25-87.979-51.279-90.222-90.22 38.968 2.25 87.977 51.279 90.222 90.22zM256 77.638c13.291 23.049 34.66 44.429 57.749 57.741-23.046 13.287-44.435 34.651-57.749 57.741-13.289-23.047-34.659-44.429-57.75-57.742 23.05-13.288 44.436-34.65 57.75-57.74zm-15.077-47.557c-2.247 38.965-51.281 87.975-90.222 90.22 2.246-38.963 51.281-87.974 90.222-90.22zm-210.6 0c38.957 2.25 87.976 51.268 90.222 90.22-38.967-2.25-87.979-51.281-90.222-90.22zm89.972 120.625c-2.251 38.965-51.279 87.978-90.222 90.221 2.251-38.968 51.281-87.976 90.222-90.221zM30.074 271.081c38.965 2.247 87.977 51.281 90.221 90.221-38.964-2.247-87.976-51.281-90.221-90.221zm.249 210.846c2.247-38.965 51.282-87.975 90.222-90.22-2.246 38.964-51.281 87.975-90.222 90.22zm120.377-90.22c38.966 2.25 87.979 51.279 90.222 90.22-38.968-2.251-87.977-51.279-90.222-90.22zM256 434.371c-13.29-23.049-34.659-44.429-57.749-57.741 23.049-13.29 44.435-34.651 57.749-57.741 13.29 23.049 34.659 44.429 57.749 57.741-23.049 13.289-44.435 34.651-57.749 57.741zm15.077 47.556c2.247-38.965 51.281-87.975 90.222-90.22-2.246 38.964-51.281 87.974-90.222 90.22zm210.6 0c-38.957-2.25-87.976-51.268-90.222-90.22 38.968 2.251 87.979 51.281 90.222 90.22zm-89.972-120.625c2.251-38.965 51.279-87.978 90.222-90.221-2.251 38.968-51.281 87.976-90.222 90.221z"
+                     fill="currentColor" opacity="1" data-original="#000000"></path>
+               </g>
+            </svg>
+            <span>Bcirebon</span>
+         </a>
+
+         <div class="footer__content grid">
+            <div>
+               <h3 class="footer__title">About</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">About us</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Feature</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">News Blogs</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div>
+               <h3 class="footer__title">Contact</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">Call Center</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Support</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Contact us</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div>
+               <h3 class="footer__title">Support</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">PrivacyPolicy</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link"> Terms & Services</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Payments</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div>
+               <h3 class="footer__title">Social</h3>
+
+               <div class="footer__social">
+                  <a href=" https://www.facebook.com/" target="_blank" class="footer__sociallink">
+                     <i class="ri-facebook-circle-fill"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__sociallink">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+
+                  <a href="  https://twitter.com/" target="_blank" class="footer__sociallink">
+                     <i class="ri-twitter-x-fill"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <span class="footer__copy">
+         &#169; All Rights Reserved By Fathan Aprian
+      </span>
+   </footer>
+
+   <!--btn scrol atas-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+
+
+   <!--file scrol-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+   <!--file swiper-->
+   <script src="assets/js/swiper-bundle.min.js"></script>
+
+   <!--file JS-->
+   <script src="assets/js/mainni.js"></script>
+
+   <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.19/build/spline-viewer.js"></script>
+</body>
+
+</html>
