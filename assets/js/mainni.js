@@ -52,6 +52,7 @@ const swiperHome = new Swiper('.home__swiper', {
 let swiperinfo = new Swiper('.info__swiper', {
   loop: true,
    slidesPerView: 'auto',
+   loopedSlides: 5,
   grabCursor: true,
 
   navigation: {
@@ -66,7 +67,7 @@ let swiperinfo = new Swiper('.info__swiper', {
     },
     1152:{
       centeredSlides: 'auto',
-      spaceBetween: -64,
+      spaceBetween: -64 ,
     }
   }
 })
